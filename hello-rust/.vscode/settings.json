@@ -1,0 +1,17 @@
+{
+    "editor.wordWrap": "on",
+
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.fileDirectoryAsCwd": false,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.executorMap": {
+        
+        "shellscript": "bash",
+        // "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "rust": "cargo run",
+        
+    }    
+}
